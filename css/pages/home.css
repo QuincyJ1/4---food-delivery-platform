@@ -1,3 +1,21 @@
 @import "../base/base.css";
 
 @import "../base/layout.css";
+
+.sidebar {
+  background-color: yellow;
+}
+
+.filters {
+}
+
+.sort-menu {
+  background-color: blue;
+}
+
+.products {
+  background-color: green;
+}
+.checkout {
+  background-color: aqua;
+}
