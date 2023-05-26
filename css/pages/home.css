@@ -25,14 +25,19 @@
   background-color: rgba(255, 255, 255, 0.8);
   color: var(--main-color);
 }
-.sidebar i:hover i {
-}
 
 .sidebar .first-menu-option {
   margin-top: 15vh;
 }
 .sidebar a i {
   margin-right: 10px;
+}
+
+.sidebar > .selected {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  color: var(--main-color);
 }
 
 .filters {
