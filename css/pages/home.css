@@ -42,15 +42,31 @@
 
 .top-section {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   background-color: var(--secondary-color);
 }
 .top-section .filters {
+  width: 50%;
   display: flex;
   margin-left: 20px;
   gap: 20px;
+  flex: 1;
+}
+.top-section a {
+  text-decoration: none;
 }
 
+.profile-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 15%;
+  margin-right: 20px;
+  position: fixed;
+  right: 0px;
+}
 .sort-menu {
   background-color: blue;
 }

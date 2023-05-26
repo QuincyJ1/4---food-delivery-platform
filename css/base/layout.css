@@ -37,6 +37,9 @@ section > .sort-menu {
   .columns .products {
     width: 100%;
   }
+  .top-section .profile-info {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
