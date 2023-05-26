@@ -2,6 +2,8 @@
 
 @import "../base/layout.css";
 
+@import "../vendor/font-awesome.min.css";
+
 .sidebar {
   background-color: yellow;
 }

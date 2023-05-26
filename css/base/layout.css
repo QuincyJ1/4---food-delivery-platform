@@ -3,30 +3,39 @@
 }
 
 .sidebar {
-  width: 300px;
-  height: 850px;
+  width: 15%;
+  /* width: 300px; */
+  height: 100vh;
 }
 
-.filters {
+section > .filters {
   width: 80vw;
   height: 80px;
   background-color: red;
 }
 
-.sort-menu {
+section > .sort-menu {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 75%;
 }
 .columns {
   display: flex;
   justify-content: space-between;
+  height: 100vh;
 }
-.products {
-  height: 850px;
+.columns .products {
   width: 75%;
 }
-.checkout {
-  height: 750px;
+.columns .checkout {
   width: 25%;
+}
+
+@media (max-width: 1200px) {
+  .columns .checkout {
+    display: none;
+  }
+  .columns .products {
+    width: 100%;
+  }
 }
