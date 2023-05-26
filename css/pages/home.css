@@ -61,11 +61,11 @@
 .profile-info {
   display: flex;
   align-items: flex-end;
-  justify-content: space-evenly;
-  width: 15%;
-  margin-right: 20px;
+  flex-shrink: 0;
+  gap: 25px;
+  /* width: 10%; */
   position: fixed;
-  right: 0px;
+  right: 50px;
 }
 .sort-menu {
   background-color: blue;
