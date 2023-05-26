@@ -40,7 +40,15 @@
   color: var(--main-color);
 }
 
-.filters {
+.top-section {
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+.top-section .filters {
+  display: flex;
+  margin-left: 20px;
+  gap: 20px;
 }
 
 .sort-menu {

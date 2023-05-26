@@ -8,10 +8,9 @@
   height: 100vh;
 }
 
-section > .filters {
+section > .top-section {
   width: 85vw;
   height: 80px;
-  background-color: red;
 }
 
 section > .sort-menu {
@@ -48,7 +47,7 @@ section > .sort-menu {
     display: none;
   }
 
-  .section .filters {
+  .section .top-section {
   }
 }
 
