@@ -9,7 +9,7 @@
 }
 
 section > .filters {
-  width: 70vw;
+  width: 85vw;
   height: 80px;
   background-color: red;
 }
@@ -40,8 +40,22 @@ section > .sort-menu {
   }
 }
 
-@media (max-width: 700px) {
-  a {
+@media (max-width: 1000px) {
+  .sidebar {
+    min-width: 110px;
+  }
+  .sidebar a span {
     display: none;
+  }
+  .sidebar a i {
+    margin-left: 5px;
+  }
+  .section .filters {
+  }
+}
+
+@media (max-width: 450px) {
+  section .sort-menu {
+    flex-direction: column;
   }
 }
