@@ -40,16 +40,14 @@ section > .sort-menu {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .sidebar {
-    min-width: 135px;
+    min-width: 120px;
   }
   .sidebar a span {
     display: none;
   }
-  .sidebar a i {
-    margin-left: 16px;
-  }
+
   .section .filters {
   }
 }
