@@ -1,3 +1,55 @@
 @import "../base/base.css";
 
 @import "../base/layout.css";
+
+@import "../vendor/font-awesome.min.css";
+
+.sidebar {
+  background-color: var(--main-color);
+}
+.sidebar a {
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-left: 40px;
+  transition: all 0.4s;
+}
+
+.sidebar a:hover {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.sidebar .first-menu-option {
+  margin-top: 15vh;
+}
+.sidebar a i {
+  margin-right: 10px;
+}
+
+.sidebar > .selected {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.filters {
+}
+
+.sort-menu {
+  background-color: blue;
+}
+
+.products {
+  background-color: green;
+}
+.checkout {
+  background-color: aqua;
+}

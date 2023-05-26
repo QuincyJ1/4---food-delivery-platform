@@ -4,3 +4,8 @@ body * {
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --main-color: #44d187;
+  --secondary-color: #fafafa;
+}
