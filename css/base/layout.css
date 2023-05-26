@@ -42,13 +42,13 @@ section > .sort-menu {
 
 @media (max-width: 1000px) {
   .sidebar {
-    min-width: 110px;
+    min-width: 135px;
   }
   .sidebar a span {
     display: none;
   }
   .sidebar a i {
-    margin-left: 5px;
+    margin-left: 16px;
   }
   .section .filters {
   }
