@@ -102,6 +102,10 @@
   font-size: 14px;
   align-items: center;
   margin-left: 20px;
+  margin-bottom: 20px;
+}
+.sort-menu span {
+  font-weight: bold;
 }
 .sort-menu .drop-down-menu {
   display: flex;
