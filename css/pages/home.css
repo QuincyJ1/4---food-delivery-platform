@@ -128,7 +128,7 @@
 }
 .columns .product-container {
   width: 270px;
-  height: 320px;
+  height: 330px;
   margin-left: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -171,7 +171,9 @@
 .products .food-pic-container {
   display: flex;
   justify-content: center;
+  height: 180px;
 }
+
 .columns .food-name {
   margin-top: 30px;
   line-height: 2em;
