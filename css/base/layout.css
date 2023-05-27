@@ -29,11 +29,10 @@ section > .sort-menu {
 .columns .checkout {
   width: 40%;
 }
-/* @media (max-width: 1600px) {
+@media (max-width: 1600px) {
   .columns .product-container {
-    width: 25%;
-  } */
-/* } */
+  }
+}
 @media (max-width: 1200px) {
   .columns .checkout {
     display: none;
