@@ -16,7 +16,9 @@ section > .top-section {
 section > .sort-menu {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 72%;
 }
 .columns {
   display: flex;
