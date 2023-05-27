@@ -127,7 +127,7 @@
   font-size: 14px;
 }
 .columns .product-container {
-  width: 300px;
+  width: 270px;
   height: 320px;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -214,6 +214,7 @@
 .columns .product9 {
   background-color: var(--product9);
 }
+
 .checkout {
   background-color: aqua;
 }
