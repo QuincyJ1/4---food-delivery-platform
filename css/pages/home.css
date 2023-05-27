@@ -3,6 +3,7 @@
 @import "../base/layout.css";
 
 @import "../vendor/font-awesome.min.css";
+@import "../vendor/ubuntu.css";
 
 .sidebar {
   background-color: var(--main-color);
@@ -22,7 +23,7 @@
 .sidebar a:hover {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  background-color: var(--secondary-color);
+  background-color: rgba(250, 250, 250, 0.6);
   color: var(--main-color);
 }
 
@@ -40,16 +41,180 @@
   color: var(--main-color);
 }
 
-.filters {
+.top-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--secondary-color);
+}
+.top-section > .filters {
+  /* width: 90%; */
+  height: 50px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 20px;
+  flex: 1;
+}
+
+.top-section a {
+  text-decoration: none;
+  padding: 0.2em 0.7em;
+  color: #000000;
+  transition: all 0.2s;
+}
+.top-section .selected {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  color: var(--secondary-color);
+}
+.top-section .selected i {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  padding: 0.2em 0.3em;
+  border-radius: 20px;
+}
+.top-section a i {
+  margin-right: 10px;
+}
+.top-section .filters a:hover {
+  background-color: rgba(68, 209, 135, 0.6);
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 0.3em 0.8em;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 10px;
+  position: sticky;
+  right: 50px;
+  font-size: 18px;
 }
 
 .sort-menu {
-  background-color: blue;
+  height: 40px;
+  font-size: 14px;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.sort-menu span {
+  font-weight: bold;
+}
+.sort-menu .drop-down-menu {
+  display: flex;
+  gap: 8px;
+}
+.sort-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+.sort-menu i {
+  margin-left: 5px;
 }
 
-.products {
-  background-color: green;
+.columns .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
 }
+.columns .product-container {
+  width: 270px;
+  height: 320px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--product1);
+}
+.columns .ratings-like-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px;
+}
+.columns .rating {
+  display: flex;
+  gap: 10px;
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 0.2em 0.5em;
+  margin-top: 15px;
+}
+.columns .rating i {
+  color: #ffd42e;
+}
+.columns .rating-info {
+  color: white;
+}
+.columns .like-icon {
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 0.2em 0.2em;
+  font-size: 1.5em;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.columns .like-icon a i {
+  color: #d74369;
+}
+.products .food-pic-container {
+  display: flex;
+  justify-content: center;
+}
+.columns .food-name {
+  margin-top: 30px;
+  line-height: 2em;
+  margin-left: 10px;
+}
+.columns .food-name span {
+  background-color: var(--secondary-color);
+  padding: 0.3em 0.3em;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: #e5bde5;
+}
+
+.columns .food-price {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.columns .product2 {
+  background-color: var(--product2);
+}
+.columns .product3 {
+  background-color: var(--product3);
+}
+.columns .product4 {
+  background-color: var(--product4);
+}
+.columns .product5 {
+  background-color: var(--product5);
+}
+.columns .product6 {
+  background-color: var(--product6);
+}
+.columns .product7 {
+  background-color: var(--product7);
+}
+.columns .product8 {
+  background-color: var(--product8);
+}
+.columns .product9 {
+  background-color: var(--product9);
+}
+
 .checkout {
   background-color: aqua;
 }
