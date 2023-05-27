@@ -3,6 +3,7 @@
 @import "../base/layout.css";
 
 @import "../vendor/font-awesome.min.css";
+@import "../vendor/ubuntu.css";
 
 .sidebar {
   background-color: var(--main-color);
@@ -22,7 +23,7 @@
 .sidebar a:hover {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  background-color: var(--secondary-color);
+  background-color: rgba(250, 250, 250, 0.6);
   color: var(--main-color);
 }
 
@@ -42,29 +43,56 @@
 
 .top-section {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   background-color: var(--secondary-color);
 }
-.top-section .filters {
-  width: 50%;
+.top-section > .filters {
+  /* width: 90%; */
+  height: 50px;
+  font-size: 14px;
   display: flex;
+  align-items: center;
   margin-left: 20px;
   gap: 20px;
   flex: 1;
 }
+
 .top-section a {
   text-decoration: none;
+  padding: 0.2em 0.7em;
+  color: #000000;
+}
+.top-section .selected {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  color: var(--secondary-color);
+}
+.top-section .selected i {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  padding: 0.2em 0.3em;
+  border-radius: 20px;
+}
+.top-section a i {
+  margin-right: 10px;
+}
+.top-section .filters a:hover {
+  background-color: rgba(68, 209, 135, 0.6);
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 0.3em 0.8em;
 }
 
 .profile-info {
   display: flex;
   align-items: flex-end;
-  flex-shrink: 0;
-  gap: 25px;
   /* width: 10%; */
-  position: fixed;
+  flex-shrink: 0;
+  gap: 10px;
+  position: sticky;
   right: 50px;
 }
 .sort-menu {

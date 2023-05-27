@@ -9,3 +9,7 @@ body * {
   --main-color: #44d187;
   --secondary-color: #fafafa;
 }
+
+body {
+  font-family: Ubuntu;
+}
