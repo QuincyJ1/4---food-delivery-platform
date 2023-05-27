@@ -8,6 +8,15 @@ body * {
 :root {
   --main-color: #44d187;
   --secondary-color: #fafafa;
+  --product1: #e5bde5;
+  --product2: #f7f2e4;
+  --product3: #def7f7;
+  --product4: #e4f7f7;
+  --product5: #eff7dd;
+  --product6: #edf3f7;
+  --product7: #f7ecec;
+  --product8: #f7f7dc;
+  --product9: #f7ebf7;
 }
 
 body {

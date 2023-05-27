@@ -5,7 +5,7 @@
 .sidebar {
   width: 250px;
   /* width: 300px; */
-  height: 100vh;
+  height: 150vh;
 }
 
 section > .top-section {
@@ -27,9 +27,13 @@ section > .sort-menu {
 }
 
 .columns .checkout {
-  width: 30%;
+  width: 40%;
 }
-
+/* @media (max-width: 1600px) {
+  .columns .product-container {
+    width: 25%;
+  } */
+/* } */
 @media (max-width: 1200px) {
   .columns .checkout {
     display: none;
@@ -50,7 +54,7 @@ section > .sort-menu {
     display: none;
   }
 
-  .section .top-section {
+  section .top-section {
   }
 }
 
