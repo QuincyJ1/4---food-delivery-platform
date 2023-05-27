@@ -64,6 +64,7 @@
   text-decoration: none;
   padding: 0.2em 0.7em;
   color: #000000;
+  transition: all 0.2s;
 }
 .top-section .selected {
   background-color: var(--main-color);
@@ -88,13 +89,14 @@
 
 .profile-info {
   display: flex;
-  align-items: flex-end;
-  /* width: 10%; */
+  align-items: center;
   flex-shrink: 0;
   gap: 10px;
   position: sticky;
   right: 50px;
+  font-size: 18px;
 }
+
 .sort-menu {
   background-color: blue;
 }
