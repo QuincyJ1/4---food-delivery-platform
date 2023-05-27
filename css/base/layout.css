@@ -25,11 +25,9 @@ section > .sort-menu {
   justify-content: space-between;
   height: 100vh;
 }
-.columns .products {
-  width: 75%;
-}
+
 .columns .checkout {
-  width: 25%;
+  width: 30%;
 }
 
 @media (max-width: 1200px) {
