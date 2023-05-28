@@ -5,7 +5,7 @@
 .sidebar {
   width: 250px;
   /* width: 300px; */
-  height: 150vh;
+  min-height: 100vh;
 }
 
 section > .top-section {

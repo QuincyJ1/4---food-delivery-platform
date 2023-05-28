@@ -5,6 +5,8 @@
 @import "../vendor/font-awesome.min.css";
 @import "../vendor/ubuntu.css";
 
+@import "../components/button.css";
+
 .sidebar {
   background-color: var(--main-color);
 }
@@ -284,4 +286,11 @@
 
 .cart-item .delete-cart-item:hover {
   color: red;
+}
+
+.column2 .total-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-size: 18px;
 }
