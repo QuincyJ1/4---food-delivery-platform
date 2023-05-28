@@ -272,16 +272,15 @@
   border: 2px solid var(--main-color);
   border-radius: 10px;
   align-items: center;
-  padding: 0 5px;
 }
 .item-quantity a {
   height: 100%;
   text-decoration: none;
   text-align: center;
+  padding: 0 10px;
 }
 .item-quantity a:hover {
   background-color: var(--main-color);
-  padding: 0 2px;
 }
 
 .cart-item .delete-cart-item:hover {
