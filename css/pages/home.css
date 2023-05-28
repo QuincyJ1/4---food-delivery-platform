@@ -221,7 +221,8 @@
 
 .columns .column2 {
   background-color: var(--secondary-color);
-  margin-right: 20px;
+  padding-right: 15px;
+  font-size: 14px;
 }
 .order-info p {
   display: flex;
@@ -279,4 +280,8 @@
 .item-quantity a:hover {
   background-color: var(--main-color);
   padding: 0 2px;
+}
+
+.cart-item .delete-cart-item:hover {
+  color: red;
 }

@@ -18,12 +18,12 @@ section > .sort-menu {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  width: 72%;
+  width: 68%;
 }
 .columns {
   display: flex;
-  /* justify-content: space-between; */
   width: 100%;
+  /* justify-content: space-between; */
 }
 .columns .column1 {
   min-width: 70%;
@@ -32,13 +32,13 @@ section > .sort-menu {
 }
 
 .columns .column2 {
-  width: 80%;
+  width: 70%;
   max-width: 80%;
   display: flex;
   flex-direction: column;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1390px) {
   .columns .column2 {
     display: none;
   }
