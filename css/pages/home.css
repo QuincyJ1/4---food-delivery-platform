@@ -160,7 +160,7 @@
   text-align: center;
   background-color: var(--secondary-color);
   padding: 0.2em 0.2em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   border-radius: 30px;
   margin-top: 10px;
 }
@@ -217,6 +217,28 @@
   background-color: var(--product9);
 }
 
-.checkout {
+.columns .column2 {
   background-color: aqua;
+}
+
+.order-info p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+
+.order-info i {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0.5em 0.5em;
+  font-size: 16px;
+  width: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+}
+.order-dial {
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
 }
