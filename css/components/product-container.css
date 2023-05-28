@@ -36,8 +36,16 @@
   border-radius: 30px;
   margin-top: 10px;
 }
-
 .columns .like-icon a i {
+  color: black;
+}
+#first-like {
+  color: #d74369;
+}
+/* .columns .like-icon a i {
+  color: #d74369;
+} */
+.columns .like-icon i:hover {
   color: #d74369;
 }
 .products .food-pic-container {
@@ -67,9 +75,11 @@
 .columns .product2 {
   background-color: var(--product2);
 }
+
 .columns .product3 {
   background-color: var(--product3);
 }
+
 .columns .product4 {
   background-color: var(--product4);
 }
