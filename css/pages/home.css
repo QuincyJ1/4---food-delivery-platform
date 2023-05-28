@@ -125,12 +125,14 @@
   flex-wrap: wrap;
   justify-content: center;
   font-size: 14px;
+  gap: 20px;
+  padding: 80px 100px 30px 40px;
 }
 .columns .product-container {
-  width: 270px;
-  height: 330px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  width: 250px;
+  height: 320px;
+  /* margin-left: 20px;
+  margin-bottom: 20px; */
   border-radius: 10px;
   background-color: var(--product1);
 }
@@ -219,6 +221,7 @@
 
 .columns .column2 {
   background-color: var(--secondary-color);
+  margin-right: 20px;
 }
 .order-info p {
   display: flex;
@@ -260,10 +263,10 @@
 }
 .shoping-cart .item-quantity {
   width: 70px;
-  height: 20px;
+  height: 25px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 2px solid var(--main-color);
   border-radius: 10px;
   align-items: center;
   padding: 0 5px;
@@ -275,5 +278,5 @@
 }
 .item-quantity a:hover {
   background-color: var(--main-color);
-  padding: 2px;
+  padding: 0 2px;
 }
