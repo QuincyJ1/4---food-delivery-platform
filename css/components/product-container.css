@@ -27,14 +27,14 @@
   color: white;
 }
 .columns .like-icon {
-  width: 1.5em;
-  height: 1.5em;
-  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--secondary-color);
-  padding: 0.2em 0.2em;
-  font-size: 1.3em;
-  border-radius: 30px;
-  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 50%;
 }
 .columns .like-icon a i {
   color: black;
