@@ -294,3 +294,23 @@
   margin-top: 35px;
   font-size: 18px;
 }
+
+.column2 .card-details {
+  margin-top: 40px;
+}
+.visa-pic {
+  height: 12px;
+  width: 35px;
+}
+.card-details p {
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.edit-icon {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
