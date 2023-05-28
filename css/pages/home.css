@@ -5,6 +5,9 @@
 @import "../vendor/font-awesome.min.css";
 @import "../vendor/ubuntu.css";
 
+@import "../components/button.css";
+@import "../components/product-container.css";
+
 .sidebar {
   background-color: var(--main-color);
 }
@@ -84,7 +87,7 @@
   background-color: rgba(68, 209, 135, 0.6);
   border-radius: 20px;
   color: var(--secondary-color);
-  padding: 0.3em 0.8em;
+  padding: 0.3em 0.7em;
 }
 
 .profile-info {
@@ -125,102 +128,15 @@
   flex-wrap: wrap;
   justify-content: center;
   font-size: 14px;
-}
-.columns .product-container {
-  width: 270px;
-  height: 330px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  background-color: var(--product1);
-}
-.columns .ratings-like-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 15px;
-}
-.columns .rating {
-  display: flex;
-  gap: 10px;
-  background-color: #000000;
-  border-radius: 20px;
-  padding: 0.2em 0.5em;
-  margin-top: 15px;
-}
-.columns .rating i {
-  color: #ffd42e;
-}
-.columns .rating-info {
-  color: white;
-}
-.columns .like-icon {
-  width: 1.5em;
-  height: 1.5em;
-  text-align: center;
-  background-color: var(--secondary-color);
-  padding: 0.2em 0.2em;
-  font-size: 1.3em;
-  border-radius: 30px;
-  margin-top: 10px;
-}
-
-.columns .like-icon a i {
-  color: #d74369;
-}
-.products .food-pic-container {
-  display: flex;
-  justify-content: center;
-  height: 180px;
-}
-
-.columns .food-name {
-  margin-top: 30px;
-  line-height: 2em;
-  margin-left: 10px;
-}
-.columns .food-name span {
-  background-color: var(--secondary-color);
-  padding: 0.3em 0.3em;
-  border-radius: 10px;
-  margin-left: 10px;
-  color: #e5bde5;
-}
-
-.columns .food-price {
-  margin-left: 10px;
-  font-weight: bold;
-}
-
-.columns .product2 {
-  background-color: var(--product2);
-}
-.columns .product3 {
-  background-color: var(--product3);
-}
-.columns .product4 {
-  background-color: var(--product4);
-}
-.columns .product5 {
-  background-color: var(--product5);
-}
-.columns .product6 {
-  background-color: var(--product6);
-}
-.columns .product7 {
-  background-color: var(--product7);
-}
-.columns .product8 {
-  background-color: var(--product8);
-}
-.columns .product9 {
-  background-color: var(--product9);
+  gap: 20px;
+  padding: 80px 100px 30px 40px;
 }
 
 .columns .column2 {
-  background-color: aqua;
+  background-color: var(--secondary-color);
+  padding-right: 15px;
+  font-size: 14px;
 }
-
 .order-info p {
   display: flex;
   align-items: center;
@@ -236,9 +152,75 @@
   width: 30px;
   text-align: center;
   border-radius: 10px;
-  background-color: red;
+  color: var(--main-color);
+  background-color: #def7f7;
 }
 .order-dial {
   border-bottom: 1px solid grey;
   padding-bottom: 30px;
+}
+.columns2 .shoping-cart {
+  display: flex;
+}
+.shoping-cart .cart-item {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+.cart-img {
+  width: 50px;
+}
+.shoping-cart .item-name {
+}
+.shoping-cart .item-weight {
+}
+.shoping-cart .item-quantity {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  align-items: center;
+}
+.item-quantity a {
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 10px;
+}
+.item-quantity a:hover {
+  background-color: var(--main-color);
+}
+
+.cart-item .delete-cart-item:hover {
+  color: red;
+}
+
+.column2 .total-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.column2 .card-details {
+  margin-top: 40px;
+}
+.visa-pic {
+  height: 12px;
+  width: 35px;
+}
+.card-details p {
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.edit-icon {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
 }
