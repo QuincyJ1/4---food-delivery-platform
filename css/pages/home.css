@@ -46,14 +46,12 @@
 
 .top-section {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   background-color: var(--secondary-color);
 }
 .top-section > .filters {
-  /* width: 90%; */
   height: 50px;
   font-size: 14px;
   display: flex;
