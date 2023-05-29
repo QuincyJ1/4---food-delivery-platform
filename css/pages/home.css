@@ -22,28 +22,24 @@
   margin-left: 40px;
   transition: all 0.4s;
 }
-
 .sidebar a:hover {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   background-color: rgba(250, 250, 250, 0.6);
   color: var(--main-color);
 }
-
 .sidebar .first-menu-option {
   margin-top: 15vh;
 }
 .sidebar a i {
   margin-right: 10px;
 }
-
 .sidebar > .selected {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   background-color: var(--secondary-color);
   color: var(--main-color);
 }
-
 .top-section {
   display: flex;
   justify-content: space-between;
@@ -60,7 +56,6 @@
   gap: 20px;
   flex: 1;
 }
-
 .top-section a {
   text-decoration: none;
   padding: 0.2em 0.7em;
@@ -87,7 +82,6 @@
   color: var(--secondary-color);
   padding: 0.3em 0.7em;
 }
-
 .profile-info {
   display: flex;
   align-items: center;
@@ -111,7 +105,6 @@
   right: 14px;
   top: 8px;
 }
-
 .sort-menu {
   height: 40px;
   font-size: 14px;
@@ -134,7 +127,6 @@
 .sort-menu i {
   margin-left: 5px;
 }
-
 .columns .products {
   display: flex;
   flex-wrap: wrap;
@@ -143,7 +135,6 @@
   gap: 20px;
   padding: 80px 100px 30px 40px;
 }
-
 .columns .column2 {
   background-color: var(--secondary-color);
   padding-right: 15px;
@@ -155,7 +146,6 @@
   margin-bottom: 10px;
   margin-top: 35px;
 }
-
 .order-info i {
   margin-right: 10px;
   margin-left: 10px;
@@ -209,14 +199,12 @@
 .cart-item .delete-cart-item:hover {
   color: red;
 }
-
 .column2 .total-price {
   display: flex;
   justify-content: space-between;
   margin-top: 35px;
   font-size: 18px;
 }
-
 .column2 .card-details {
   margin-top: 40px;
   text-align: center;
@@ -232,7 +220,6 @@
   margin-left: 5px;
   padding-left: 5px;
 }
-
 .edit-icon {
   margin-left: 20px;
   text-decoration: none;
