@@ -99,6 +99,20 @@
   right: 50px;
   font-size: 18px;
 }
+.profile-info .notification-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile-info .notification-sign {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  position: absolute;
+  right: 14px;
+  top: 8px;
+}
 
 .sort-menu {
   height: 40px;
@@ -207,14 +221,17 @@
 
 .column2 .card-details {
   margin-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 .visa-pic {
   height: 12px;
   width: 35px;
 }
 .card-details p {
-  display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
   padding-left: 5px;
 }
 

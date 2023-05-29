@@ -23,4 +23,23 @@
   background-color: var(--main-color);
 }
 .load-more-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.load-more-btn a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+.load-more-btn i {
+  margin-right: 5px;
+}
+.load-more-btn a:hover {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
 }
